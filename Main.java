@@ -6,7 +6,7 @@ class Main {
     String[] msBennysRoster = new String[12]; 
     Scanner scan = new Scanner(System.in);
 
-    for (int index = 0; index < barrysRoster.length; index++){
+    for (int index = 0; index < barrysRoster.length; index++){ 
       System.out.println("What's your name?");
       barrysRoster[index] = scan.next();
       System.out.println(BarrysRoster[index]);
