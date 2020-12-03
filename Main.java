@@ -3,7 +3,7 @@ class Main {
   public static void main(String[] args) {
     //Adding in Mr. Barry's roster array
     String[] barrysRoster = new String[10]; 
-    String[] msBennysRoster = new String[12];
+    String[] msBennysRoster = new String[12]; 
     Scanner scan = new Scanner(System.in);
 
     for (int index = 0; index < barrysRoster.length; index++){
